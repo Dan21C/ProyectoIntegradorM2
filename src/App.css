@@ -1,0 +1,14 @@
+.App {
+  margin: auto; 
+  height: 50%;
+  width: 100%;
+  position: relative;
+  cursor: auto;
+
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url(https://imagenes.20minutos.es/files/image_944_626/uploads/imagenes/2021/06/17/parque-anatomico.jpeg);
+  
+  background-position:initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

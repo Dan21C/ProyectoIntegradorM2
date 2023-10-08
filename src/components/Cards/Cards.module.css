@@ -1,0 +1,7 @@
+.ContenedorCards{
+    display: grid;
+    margin-left: 5%;
+    grid-template-columns: repeat(4, 1fr); /* 4 elementos por fila */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding-bottom: 40px;
+}

@@ -1,0 +1,41 @@
+.SearchBar{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top:30px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+
+.type{
+    border-radius: 5%;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2); /* Color de fondo semi-transparente */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color:#f2f2f2;
+    padding-right: 20%;
+    margin-right: 20%;
+
+}
+
+.boton {
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+    backdrop-filter: blur(10px); /* Efecto de vidrio */
+    border: none; /* Sin borde */
+    border-radius: 15px; /* Bordes redondeados */
+    color: #fff; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 14px; /* Tamaño de fuente */
+    padding: 4px 10px; /* Espaciado interno */
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out; /* Transición suave */
+}
+
+.boton:hover {
+    background: rgba(255, 255, 255, 0.712); /* Cambia el fondo al pasar el mouse */
+    color: #333; /* Cambia el color del texto al pasar el mouse */
+}
